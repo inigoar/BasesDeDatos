@@ -1,0 +1,75 @@
+2020-04-17 13:58:07.250 [main] ERROR pokemon.PokemonDatabase - Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-04-17 13:58:07.255 [main] ERROR pokemon.PokemonDatabase - Code: 0
+2020-04-17 13:58:07.255 [main] ERROR pokemon.PokemonDatabase - SQL State: 08S01
+2020-04-17 13:58:07.258 [main] ERROR pokemon.PokemonDatabase - Message: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-04-17 13:58:07.258 [main] ERROR pokemon.PokemonDatabase - Code: 0
+2020-04-17 13:58:07.259 [main] ERROR pokemon.PokemonDatabase - SQL State: 08S01
+2020-04-17 19:53:44.929 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 19:54:23.197 [main] ERROR pokemon.PokemonDatabase - Message: Table 'pokemon.aprende' doesn't exist
+2020-04-17 19:54:23.197 [main] ERROR pokemon.PokemonDatabase - Code: 1146
+2020-04-17 19:54:23.197 [main] ERROR pokemon.PokemonDatabase - SQL State: 42S02
+2020-04-17 19:54:23.200 [main] ERROR pokemon.PokemonDatabase - Message: Table 'pokemon.conoce' doesn't exist
+2020-04-17 19:54:23.200 [main] ERROR pokemon.PokemonDatabase - Code: 1146
+2020-04-17 19:54:23.200 [main] ERROR pokemon.PokemonDatabase - SQL State: 42S02
+2020-04-17 19:56:24.283 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 20:00:04.960 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 20:01:26.090 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 20:02:05.998 [main] INFO  pokemon.PokemonDatabase - Connection closed successfully
+2020-04-17 20:02:19.279 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 20:42:40.360 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 20:42:40.382 [main] ERROR pokemon.PokemonDatabase - Message: Table 'aprende' already exists
+2020-04-17 20:42:40.382 [main] ERROR pokemon.PokemonDatabase - Code: 1050
+2020-04-17 20:42:40.383 [main] ERROR pokemon.PokemonDatabase - SQL State: 42S01
+2020-04-17 20:42:42.764 [main] ERROR pokemon.PokemonDatabase - Message: Cannot add or update a child row: a foreign key constraint fails (`pokemon`.`conoce`, CONSTRAINT `conoce_ibfk_2` FOREIGN KEY (`ID_Ataque`) REFERENCES `ataque` (`id_ataque`) ON DELETE CASCADE ON UPDATE CASCADE)
+2020-04-17 20:42:42.764 [main] ERROR pokemon.PokemonDatabase - Code: 1452
+2020-04-17 20:42:42.764 [main] ERROR pokemon.PokemonDatabase - SQL State: 23000
+2020-04-17 20:49:55.310 [main] INFO  pokemon.PokemonDatabase - Connection closed successfully
+2020-04-17 20:50:10.269 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 20:50:10.291 [main] ERROR pokemon.PokemonDatabase - Message: Table 'aprende' already exists
+2020-04-17 20:50:10.291 [main] ERROR pokemon.PokemonDatabase - Code: 1050
+2020-04-17 20:50:10.291 [main] ERROR pokemon.PokemonDatabase - SQL State: 42S01
+2020-04-17 20:53:29.425 [main] INFO  pokemon.PokemonDatabase - Connection closed successfully
+2020-04-17 21:23:00.713 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:25:04.917 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:25:32.375 [main] ERROR pokemon.PokemonDatabase - Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n_encuentro = 5 & n_pokedex = 133' at line 1
+2020-04-17 21:25:32.377 [main] ERROR pokemon.PokemonDatabase - Code: 1064
+2020-04-17 21:25:32.378 [main] ERROR pokemon.PokemonDatabase - SQL State: 42000
+2020-04-17 21:26:02.468 [main] ERROR pokemon.PokemonDatabase - Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n_encuentro = 2 & n_pokedex = 8' at line 1
+2020-04-17 21:26:02.470 [main] ERROR pokemon.PokemonDatabase - Code: 1064
+2020-04-17 21:26:02.471 [main] ERROR pokemon.PokemonDatabase - SQL State: 42000
+2020-04-17 21:26:10.397 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:27:32.515 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:29:39.394 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:32:03.221 [main] ERROR pokemon.PokemonDatabase - Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n_encuentro = 5 & n_pokedex = 133' at line 1
+2020-04-17 21:32:19.343 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:34:31.019 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:35:44.996 [main] ERROR pokemon.PokemonDatabase - Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n_encuentro = 5 & n_pokedex = 133' at line 1
+2020-04-17 21:35:44.998 [main] ERROR pokemon.PokemonDatabase - Code: 1064
+2020-04-17 21:35:44.999 [main] ERROR pokemon.PokemonDatabase - SQL State: 42000
+2020-04-17 21:36:42.264 [main] ERROR pokemon.PokemonDatabase - Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n_encuentro = 2 & n_pokedex = 8' at line 1
+2020-04-17 21:36:42.266 [main] ERROR pokemon.PokemonDatabase - Code: 1064
+2020-04-17 21:36:42.266 [main] ERROR pokemon.PokemonDatabase - SQL State: 42000
+2020-04-17 21:37:03.292 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:37:31.693 [main] ERROR pokemon.PokemonDatabase - Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n_encuentro = 5 AND n_pokedex = 133' at line 1
+2020-04-17 21:37:31.694 [main] ERROR pokemon.PokemonDatabase - Code: 1064
+2020-04-17 21:37:31.695 [main] ERROR pokemon.PokemonDatabase - SQL State: 42000
+2020-04-17 21:41:02.149 [main] ERROR pokemon.PokemonDatabase - Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n_encuentro = 2 AND n_pokedex = 8' at line 1
+2020-04-17 21:41:02.150 [main] ERROR pokemon.PokemonDatabase - Code: 1064
+2020-04-17 21:41:02.151 [main] ERROR pokemon.PokemonDatabase - SQL State: 42000
+2020-04-17 21:41:03.421 [main] ERROR pokemon.PokemonDatabase - Message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'n_encuentro = 1 AND n_pokedex = 5' at line 1
+2020-04-17 21:41:03.423 [main] ERROR pokemon.PokemonDatabase - Code: 1064
+2020-04-17 21:41:03.424 [main] ERROR pokemon.PokemonDatabase - SQL State: 42000
+2020-04-17 21:41:15.127 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:42:33.024 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:45:53.550 [main] ERROR pokemon.PokemonDatabase - Message: Communications link failure
+
+The last packet successfully received from the server was 178.775 milliseconds ago. The last packet sent successfully to the server was 178.776 milliseconds ago.
+2020-04-17 21:47:23.198 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:57:19.135 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:57:39.610 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 21:59:03.111 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
+2020-04-17 22:00:15.821 [main] INFO  pokemon.PokemonDatabase - Connection established successfully
